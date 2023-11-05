@@ -11,6 +11,10 @@
   "keywords": [],
   "author": "H2O",
   "license": "ISC",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
     "rollup": "2.78.0",
