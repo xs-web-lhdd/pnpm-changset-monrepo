@@ -1,0 +1,20 @@
+{
+  "name": "pnpm-changset-monrepo",
+  "private": true,
+  "description": "联系pnpm+monorepo+changesets搭建monorepo项目并发包",
+  "scripts": {
+    "build": "rollup -c",
+    "changeset": "changeset",
+    "packages-version": "changeset version",
+    "publish": "changeset publish --registry=https://registry.npmjs.com/"
+  },
+  "keywords": [],
+  "author": "H2O",
+  "license": "ISC",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.2",
+    "rollup": "2.78.0",
+    "rollup-plugin-typescript2": "0.34.1",
+    "typescript": "4.9.4"
+  }
+}
